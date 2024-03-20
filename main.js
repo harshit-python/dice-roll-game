@@ -17,16 +17,19 @@ function playGame() {
     
     if (randNumber1 > randNumber2) {
         title.innerText = "You win!";
+        title.style.color = "green";
         yourScoreValue = yourScore.innerText;
         yourScoreValue++;
         yourScore.innerText = yourScoreValue;
     } else if (randNumber1 < randNumber2) {
         title.innerText = "Computer wins!";
+        title.style.color = "red";
         compScoreValue = compScore.innerText;
         compScoreValue++
         compScore.innerText = compScoreValue;
     } else {
         title.innerText = "Match drawn!";
+        title.style.color = "grey";
     }
 }
 
