@@ -35,10 +35,12 @@
 }
 
 .score-container p {
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 2px;
-  color: #ffffff;
-  font-family: system-ui;
+  color: #ffffffe5;
+  font-family: system-ui, cursive;
+  font-weight: bold; /* Increase font weight for emphasis */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
 }
 
 .button {
@@ -55,6 +57,7 @@
   background: #bd4ecc;
   color: white;
   font-size: 20px;
+  font-family: system-ui, cursive;
 }
   
 body {
